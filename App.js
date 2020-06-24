@@ -6,6 +6,8 @@ class App extends Component {
         return (
             <View>
                 <Text>Mohammed nur</Text>
+                <Text>Nur Mohammed Murad</Text>
+                <Text>He is very nice guy</Text>
             </View>
     );
     }
