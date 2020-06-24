@@ -1,12 +1,25 @@
 import React, {Component} from 'react';
-import {View, Text} from "react-native"
+import {Container, Button, Text} from "native-base"
 
 class App extends Component {
+
+    constructor() {
+        super();
+        this.state = {
+            dateValue:"my data"
+        }
+    }
+
+
+
+
     render() {
         return (
-            <View>
-                <Text>Man who are you</Text>
-            </View>
+            <Container>
+                <Button>
+                    <Text>Save</Text>
+                </Button>
+            </Container>
     );
     }
 }
